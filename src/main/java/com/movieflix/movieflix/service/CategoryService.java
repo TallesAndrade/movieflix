@@ -27,8 +27,8 @@ public class CategoryService {
     }
 
     public CategoryResponse saveCategory(CategoryRequest categoryRequest) {
-       Category category = repository.save(CategoryMapper.toCategory(categoryRequest));
-       return CategoryMapper.toCategoryResponse(category);
+        Category category = repository.save(CategoryMapper.toCategory(categoryRequest));
+        return CategoryMapper.toCategoryResponse(category);
     }
 
     public CategoryResponse findById(Long id) {
