@@ -38,7 +38,7 @@ public class StreamingService {
         repository.delete(getStreamingOrThrow(id));
     }
 
-    private Streaming getStreamingOrThrow(Long id){
+    public Streaming getStreamingOrThrow(Long id){
         return  repository.findById(id)
                 .orElseThrow(StreamingNotFoundException::new);
     }

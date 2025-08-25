@@ -39,7 +39,7 @@ public class CategoryService {
         repository.delete(getCategoryOrThrow(id));
     }
 
-    private Category getCategoryOrThrow(Long id) {
+    public Category getCategoryOrThrow(Long id) {
         return repository
                 .findById(id)
                 .orElseThrow(CategoryNotFoundException::new);
