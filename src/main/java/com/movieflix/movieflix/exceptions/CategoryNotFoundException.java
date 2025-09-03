@@ -3,7 +3,7 @@ package com.movieflix.movieflix.exceptions;
 public class CategoryNotFoundException extends RuntimeException {
 
     public CategoryNotFoundException(String message) {
-        super();
+        super(message);
     }
 
     public CategoryNotFoundException() {
