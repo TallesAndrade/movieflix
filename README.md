@@ -1,6 +1,6 @@
 # 🎬 MovieFlix API
 
-API REST para gerenciamento de filmes, categorias e plataformas de streaming, desenvolvida com **Spring Boot 3**.
+API REST para gerenciamento de filmes, categorias e plataformas de streaming, desenvolvida com **Spring Boot 3**. Este projeto foi criado com o objetivo de colocar em prática os estudos de **Spring Security** e autenticação com **token JWT**.
 
 ## 📋 Índice
 
